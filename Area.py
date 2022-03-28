@@ -3,7 +3,7 @@ def rectangle(a,b):
     return a*b
 
 def perimeter_rect(a,b):
-    return 2*   (a*b)
+    return 2*(a*b)
 
 def area_square(a):
     return a*a
