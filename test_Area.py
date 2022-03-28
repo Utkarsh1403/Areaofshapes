@@ -10,7 +10,7 @@ def test_periRec():
     x=5
     y=8
     result=Area.perimeter_rect(x,y)
-    assert 2*(x*y)==result
+    assert 2*(x+y)==result
 
 def test_areaSquare():
     x=8
